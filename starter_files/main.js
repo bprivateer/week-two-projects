@@ -78,9 +78,9 @@ function question6 () {
   let total = 0;
   for (var i = 0; i < data.length; i++){
     if (data[i].who_made === "i_did"){
-      total += 1;
+      total = total + 1;
 }
     }
-    console.log(total);
+    console.log(total + " items we sold by their seller");
   }
   // Answer:
